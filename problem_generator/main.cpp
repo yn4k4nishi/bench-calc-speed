@@ -13,6 +13,7 @@ int main(int argc, char *argv[]){
 
     int N = std::stoi(argv[1]);
     Eigen::MatrixXd matrix = Eigen::MatrixXd::Random(N,N+1);
+    matrix = (matrix + Eigen::MatrixXd::Constant(N, N+1, 1)) * 0.5;
     
     show_matrix(matrix);
 
