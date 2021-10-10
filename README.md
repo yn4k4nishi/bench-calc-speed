@@ -8,9 +8,12 @@ $ cmake ..
 $ make
 ```
 
-# Problem generator
+# 行列生成
 ```bash
 $ ./build/problem_generator 1000
 ```
 
-note : 1000 is matrix size (1000x1000).
+note : 1000 は行列の大きさ (1000x1000).
+
+# LU分解
+

@@ -38,3 +38,6 @@ include_directories(
 
 add_executable(problem_generator problem_generator/main.cpp)
 target_link_libraries(problem_generator Eigen3::Eigen matplotlib_cpp)
+
+add_executable(LU_decomposition LU_decomposition/main.cpp)
+target_link_libraries(LU_decomposition Eigen3::Eigen matplotlib_cpp)
