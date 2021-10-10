@@ -33,6 +33,7 @@ install(
 include_directories(
     EIGEN3_INCLUDE_DIR
     matplotlib_cpp
+    utils
 )
 
 add_executable(problem_generator problem_generator/main.cpp)
