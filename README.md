@@ -1,5 +1,5 @@
-# solve-simultaneous-linear-eq
-solve simultaneous linear equations
+# bench calc speed
+benchmark calculation speed CPU vs GPU
 
 # Build
 ```bash
@@ -13,7 +13,7 @@ $ make
 $ ./build/problem_generator 1000
 ```
 
-note : 1000 は行列の大きさ (1000x1000).
+note : 1000 は行列の大きさ (1000x1001).
 
 # LU分解
 
